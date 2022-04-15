@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "lib": ["es2018", "dom"],
+    "sourceMap": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2015",
+    "baseUrl": ".",
+    "downlevelIteration": true,
+    "module": "commonJS",
+    "paths": {
+      "*": [
+        "modules/*",
+        "node_modules/*"
+      ]
+    }
+  },
+  "includes": [
+    "./externals.d.ts"
+  ]
+}

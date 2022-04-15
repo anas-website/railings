@@ -1,0 +1,15 @@
+.DS_Store
+*.class
+/target/
+/out/
+/build/out/
+/.idea/
+*.iml
+*.ipr
+*.iws
+*.blend1
+/web/app/test/viz/**
+/npm-debug.log
+/node_modules
+/dist
+/.vs
